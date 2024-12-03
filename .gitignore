@@ -1,0 +1,36 @@
+".gitignore" 
+
+# Build 폴더, 임시 파일 제외
+*.suo
+*.user
+*.userosscache
+*.sln
+*.swp
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+
+# Binaries and Intermediate 폴더 제외
+/Binaries/*
+/Intermediate/*
+/Saved/*
+/DerivedDataCache/*
+
+# OS별 임시 파일 제외
+.DS_Store
+Thumbs.db
+
+# Unreal Engine 특정 파일 제외
+*.log
+*.tlog
+*.tmp
+*.db
+*.opendb
+*.ue4stats
+*.uasset.tmp
+
+# Ignore specific plugin data (if applicable)
+*.Build.cs
+*.Target.cs
+*.uprojectdirs
